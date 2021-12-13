@@ -3,12 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import project1 from "../../Assets/Projects/project-1.png";
+import project2 from "../../Assets/Projects/project-2.png";
+import project3 from "../../Assets/Projects/project-3.png";
+import project4 from "../../Assets/Projects/project-4.png";
+import project5 from "../../Assets/Projects/project-5.png";
+import project6 from "../../Assets/Projects/project-6.png";
 
 function Projects() {
   return (
@@ -24,62 +24,62 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={project1}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Bored Zilla Club NFT"
+              description="In Bored Zilla NFT Minting website, I started from Figma design.
+              It is based on ERC721 and I built it Next.js and Web3. The UI is Material-UI. Of course, the smart contract was made by me."
+              link="https://boredzillaclub.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={project2}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Fox Marketplace"
+              description="I used Nuxt to build Fox marketplace. Present, the 21 NFTs are in the shop. I created the smart contract and build it in two weeks. This site is based on the BSC network and uses a special token called Fox 🦊."
+              link="https://foxfinance.io/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={project3}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Vethugs.com"
+              description="Vethugs.com is based on the VeChain and uses the token called VET. I built it with React.js and SyncWallet - Desktop wallet. The client needed daily updates and I could make a perfect result."
+              link="https://www.vethugs.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={project4}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="LAID BACK LLAMAS"
+              description="In this project, I was able to use React and GSAP. It was based on the Ethereum Rinkeby network and also Smart contract was not problem for me."
+              link="https://www.laidbackllama.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={project5}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="SHIBA SWAP"
+              description="This project is a swap site I made. Running on the Ethereum maintet, this web app was built using React and Redact. The Figma design, smart contract, and front-end have been perfected by my passion for 2 months."
+              link="https://shibaswap.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={project6}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Pretty Wooshi NFT"
+              description="I think this project is a good example of combining Dapp and shopping app. Only owners who have purchased a cute Wooshi can access a specific page and purchase discounted products. Really cute Wooshi! For two weeks I did some really lovely coding with the cute Wooshi."
+              link="https://wooshi.world/"
             />
           </Col>
         </Row>
