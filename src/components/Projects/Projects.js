@@ -9,6 +9,7 @@ import project3 from "../../Assets/Projects/project-3.png";
 import project4 from "../../Assets/Projects/project-4.png";
 import project5 from "../../Assets/Projects/project-5.png";
 import project6 from "../../Assets/Projects/project-6.png";
+import Gallery from "./Gallery";
 
 function Projects() {
   return (
@@ -84,6 +85,7 @@ function Projects() {
           </Col>
         </Row>
       </Container>
+      <Gallery />
     </Container>
   );
 }

@@ -27,10 +27,10 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
+          {/* <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             “ Don’t wait for the other's creations, create for them ”{" "}
           </p>
-          <footer className="blockquote-footer">My aim</footer>
+          <footer className="blockquote-footer">My aim</footer> */}
         </blockquote>
       </Card.Body>
     </Card>
